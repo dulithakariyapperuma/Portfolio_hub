@@ -125,13 +125,9 @@ export function BrainModel({ active, pointer }: { active: Hemisphere; pointer: R
     }
   })
 
-  const orientation = new THREE.Matrix4().set(0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1)
-
   return (
     <group ref={root}>
-      <group quaternion={new THREE.Quaternion().setFromRotationMatrix(orientation)} scale={[1, 1.25, 0.96]}>
-        <primitive object={model} />
-      </group>
+      <primitive object={model} />
     </group>
   )
 }
