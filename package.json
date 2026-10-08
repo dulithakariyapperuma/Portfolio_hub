@@ -1,0 +1,40 @@
+{
+  "name": "two-sides-one-mind",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3000",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@tanstack/react-router": "latest",
+    "@tanstack/react-start": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "latest",
+    "@react-three/fiber": "latest",
+    "@react-three/drei": "latest",
+    "motion": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/node": "latest",
+    "@types/three": "latest",
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "tailwindcss": "latest",
+    "@tailwindcss/vite": "latest",
+    "eslint": "latest",
+    "@eslint/js": "latest",
+    "typescript-eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "prettier": "latest"
+  },
+  "packageManager": "bun@1.4.2"
+}
